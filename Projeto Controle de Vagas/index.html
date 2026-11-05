@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Controle de Estacionamento</h1>
+        <h2>Vagas Disponiveis: <span id="contador">20</span></h2>
+    </header>
+
+
+    <main>
+        <section>
+            <h2>Registrar Veculo</h2>
+
+            <form id="formulario">
+                 
+                <label for="placa">Placa do Veiculo:</label>
+                <input type="text" id="placa" placeholder="ABC-1234">
+
+                <label for="tipo">Tipo De Veiculo</label>
+                <select id="tipo">
+                    <option value="">Selecione</option>
+                    <option value="carro">Carro</option>
+                    <option value="moto">Moto</option>
+                    <option value="caminhao">Caminhão</option>
+                </select>
+
+                <label for="proprietario">Nome do Proprietario</label>
+                <input type="text" id="proprietario" placeholder="Digite seu nome">
+                <button type="submit">Registrar Entrada</button>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Veiculos presentes no Estacionamento</h2>
+
+            <p> 
+                Somente MOTOS podem sair diretamente pelo peinel.
+                clique sobre o card para registrar said.
+            </p>
+            
+            <div id="lista-veiculos"></div>
+        </section>
+
+    </main>
+
+    <script src="JS/java.js"></script>
+</body>
+</html>
