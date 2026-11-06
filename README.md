@@ -1,0 +1,1 @@
+Cenário Você foi contratado para desenvolver o protótipo do Sistema de Controle de Vagas de um Estacionamento. O objetivo do sistema é permitir que os veículos sejam registrados na entrada, visualizando todos os automóveis atualmente estacionados em um único painel e monitorando o número total de vagas disponíveis em tempo real.
