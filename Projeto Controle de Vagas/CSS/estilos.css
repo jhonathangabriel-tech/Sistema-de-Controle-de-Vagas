@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background-color: #8ca9b9;
+    color:black;
+    font-size:x-large;
+}
+
+header {
+    background-color: #5e976b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+main {
+    width:90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+section{
+    background-color:gray;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;;
+}
+
+section h2{
+    margin-bottom: 20px;
+    color: #0d110e;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    background-color:#5e976b;
+    color: white;
+    padding:  12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
